@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arnold Gives You Inspiration</title>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+    <style>
+        h1, #blog, #animate__animated {
+            color: navy;
+            text-align: center;
+        }
+        @keyframes animate__animated {
+        }
+        #intro {
+            text-align: center;
+        }
+        img {
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 30;
+        }
+        @keyframes flash {
+        0% { opacity: .3; }
+        100% { opacity: 1; }
+        }
+        .flash:hover {
+        opacity: 1;
+        -webkit-animation: flash 3s;
+        animation: flash 1s slidein infinite alternate;
+        }
+        div {
+            text-align: center;
+            padding: 65px;
+            border-color: blue;
+        }
+        body {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1 class="animate__animated animate__pulse animate__repeat_infinite infinite"> Arnold Gives You Inspiration</h1>
+        <p id="intro">Arnold Schwarzenegger is a well-known bodybuilder, actor, and politician who has often shared motivational and inspirational quotes to encourage others to pursue their goals and aspirations. Below are blogs containing some of his famous inspirational quotes.</p>
+    </section>
+    <section>
+        <p id="blog"><strong>Blogs</strong></p>
+    </section>
+        <article>
+            <img class=flash src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ11QclKdlRC7S92Xxl4MNzLJelHBGLduS84w&usqp=CAU">
+        </article>
+    <section>
+        <div>
+            <p>"Strength does not come from winning. Your struggles develop your strengths. When you go through hardships and decide not to surrender, that is strength."</p>
+        </div>
+        <div>
+            <p>"The mind is the limit. As long as the mind can envision the fact that you can do something, you can do it, as long as you really believe 100 percent."</p>
+        </div>
+        <div>
+            <p>"What we face may look insurmountable, but what I learned is that we are always stronger than we know."</p>
+        </div>
+        <div>
+            <p>"The most important thing in life is to have a vision. A clear picture of where you want to go, what you want to be, and what you want to do."</p>
+        </div>
+        <div>
+            <p>"The difference between those who succeed and those who fail is not the absence of fear, but the willingness to take risks despite that fear."</p>
+        </div>
+        <div>
+            <p>"Success is not final, failure is not fatal: it is the courage to continue that counts."</p>
+        </div>
+    </section>
+</body>
+</html>
